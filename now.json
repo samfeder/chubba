@@ -1,0 +1,12 @@
+{
+  "name": "chubba",
+  "env": {
+    "BITTREX_KEY": "@bittrex-api-key",
+    "BITTREX_SECRET": "@bittrex-api-secret"
+  },
+  "version": 2,
+  "builds": [
+    { "src": "date.js", "use": "@now/node" },
+    { "src": "next.config.js", "use": "@now/next" }
+  ]
+}
